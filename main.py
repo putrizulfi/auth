@@ -23,7 +23,7 @@ api = Api(app,title=app.config.SWAGGER_UI_OAUTH_APP_NAME)        # Instantiation
 ############################
 ##### BEGIN: Database #####
 ##########################
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:@127.0.0.1:3306/uas_webservice"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:dAuTvFXU2s4NTRVgaB4M@containers-us-west-17.railway.app:5438/railway"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
 
